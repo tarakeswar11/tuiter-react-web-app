@@ -2,10 +2,7 @@ import React from 'react';
 
 let true1 = true
     let false1 = false
-    let false2 = true1 && false1
     
-    let numberVariable = 123;
-    let floatingPointNumber = 234.345;
     
 
 function IfElse() {
