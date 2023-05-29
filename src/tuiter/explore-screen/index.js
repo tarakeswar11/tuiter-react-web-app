@@ -21,13 +21,13 @@ function ExploreScreen() {
        <div className="col-10 position-relative">
      <ul className="nav nav-pills mb-2 mt-2">
        <li className="nav-item">
-         <a className="nav-link active">For You</a>
+         <a href="for-you.html" className="nav-link active">For You</a>
        </li>
        <li className="nav-item">
-         <a className="nav-link">Trending</a>
+         <a href="trending.html" className="nav-link">Trending</a>
        </li>
        <li className="nav-item">
-         <a className="nav-link">News</a>
+         <a href="news.html" className="nav-link">News</a>
        </li>
      </ul>
      <div className="position-relative mb-2">
