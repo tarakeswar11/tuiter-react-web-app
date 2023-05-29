@@ -2,7 +2,7 @@ import React from 'react';
 
 function FindIndex(){
     
-    let numberArray1 = [1, 2, 3, 4, 5];
+    let numberArray1 = [1, 2, 4, 3, 5];
     let stringArray1 = ['string1', 'string3', 'string2' ];
 
     const fourIndex = numberArray1.findIndex(a => a === 4);
