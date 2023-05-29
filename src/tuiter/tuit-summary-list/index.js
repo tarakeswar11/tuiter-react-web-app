@@ -13,4 +13,5 @@ const TuitSummaryList = () => {
    </ul>
  );
 };
+
 export default TuitSummaryList;
