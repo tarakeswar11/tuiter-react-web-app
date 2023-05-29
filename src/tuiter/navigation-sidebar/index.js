@@ -7,7 +7,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const NavigationSidebar = () => {
  const { pathname } = useLocation();
- const [active] = pathname.split("/");
+ const [ignore, tuiter, active] = pathname.split("/");
  const links = ["home",     "explore",   "notifications", "messages", "bookmarks", "lists", "profile",  "more"];
  return (
    <div className="list-group">
@@ -16,6 +16,9 @@ const NavigationSidebar = () => {
            {link}
          </Link>
      )}
+     <p className="text-white fs-6">{ignore}</p>
+     <p className="text-white fs-6">{tuiter}</p>
+
    </div>
  );
 };
