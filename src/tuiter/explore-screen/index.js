@@ -8,7 +8,7 @@ function ExploreScreen() {
    <>
     
      <div className="row">
-       <div className="col-10 position-relative">
+       <div className="col-11 position-relative">
          <input placeholder="Search Tuiter"
                 className="form-control rounded-pill ps-5"/>
          <AiOutlineSearch className="fs-3 position-absolute 
@@ -18,7 +18,7 @@ function ExploreScreen() {
          <GoGear className="wd-top-4 float-end
                        fs-3 position-relative"/>
        </div>
-       <div className="col-10 position-relative">
+       <div className="col-12 position-relative">
      <ul className="nav nav-pills mb-2 mt-2">
        <li className="nav-item">
          <a href="for-you.html" className="nav-link active">For You</a>
