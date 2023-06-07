@@ -22,7 +22,7 @@ function TuitItem({ tuit }) {
           />
         </div>
 
-        <div className="col-11">
+        <div className="col-11 ">
               <span className="fw-bold">{tuit.userName}</span>&nbsp;
               <i className="bi bi-patch-check-fill text-primary"></i>&nbsp;
               <span className="text-secondary">
@@ -30,13 +30,15 @@ function TuitItem({ tuit }) {
               </span>
               <i className="bi bi-x-lg float-end" onClick={() => deleteTuitHandler(tuit._id)}></i>
             <div>{tuit.tuit}</div>
+            <div style={{ marginTop: "18px" }}>
+            <TuitStats 
             
-            <TuitStats
               liked={tuit.liked}
               comments={tuit.replies}
               retweets={tuit.retuits}
               likes={tuit.likes}
             />
+            </div>
         </div>
       </div>
     </li>
