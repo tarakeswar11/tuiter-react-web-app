@@ -18,6 +18,7 @@ function TuitStats({ comments, retweets, likes, liked }) {
 
   return (
     <div className="row mt-2 text-secondary">
+      
       <div className="col">
         <i className="bi bi-chat"></i>&nbsp;
         <span className="comments">{comments}</span>
