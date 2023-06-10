@@ -45,7 +45,7 @@ function ProfileScreen() {
                         }} />
                 </div></div>
             )}
-            <button className="btn btn-primary mt-2"
+            <button className="btn btn-primary btn-danger mt-2"
                 onClick={() => {
                     dispatch(logoutThunk());
                     navigate("/tuiter/login");
