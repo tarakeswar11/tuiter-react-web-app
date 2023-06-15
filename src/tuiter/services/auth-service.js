@@ -1,7 +1,7 @@
 import axios from "axios";
 //const API_BASE = process.env.REACT_APP_API_BASE;
 
-const SERVER_API_URL = "https://tuiter-node-server-app-tarak.herokuapp.com/api/tuits"
+const SERVER_API_URL = "https://tuiter-node-server-app-edyt.onrender.com/api"
 const USERS_URL = `${SERVER_API_URL}/users`;
 
 console.log(USERS_URL);
